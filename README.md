@@ -23,5 +23,5 @@
 
 支持的编辑器：https://github.com/tengge1/ShadowEditor
 
-![image](%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.jpg)
+![image](https://github.com/hi347/lol-model-viewer/blob/master/%E5%9B%BE%E7%89%87/2019-03-24_224342.png)
 
