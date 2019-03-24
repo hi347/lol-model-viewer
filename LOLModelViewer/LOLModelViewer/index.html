@@ -1,22 +1,44 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="zh-cn">
+
 <head>
-    <meta charset="utf-8">
-    <title>英雄联盟模型查看器</title>
+    <meta charset="UTF-8">
+    <title>英雄联盟</title>
+    <link href="https://cdn.bootcss.com/zui/1.8.1/css/zui.css" rel="stylesheet">
     <link href="resource/css/viewer.css" rel="stylesheet" />
 </head>
+
 <body>
-    <div class="left">
-        <div id="viewer" style="width: 600px; height: 400px;"></div>
-        <div id="anims"></div>
-    </div>
-    <div class="right">
-        <div id="champions"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-9">  
+                <div id="viewer"></div>
+                <div class="alert alert-success-inverse">【浏览器放大后，记得刷新页面F5 】【1.鼠标左键：选择模型，2.鼠标滚轮：缩放模型，3.鼠标右键：移动模型】【搜索英雄：CTRL + F 】</div>
+            </div>
+
+            <div class="col-xs-3">
+                
+                <div class="alert">
+                    <div class="alert alert-success-inverse">动画池</div>
+                    <div id="anims"></div>
+                </div>
+                <div class="alert">
+                    <div class="alert alert-success-inverse">英雄池</div>
+                    <div id="champions"></div>
+                </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="resource/js/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/zui/1.8.1/js/zui.js"></script>
     <script src="resource/js/viewer.js"></script>
     <script src="resource/js/data.js"></script>
     <script src="resource/js/modelviewer.js"></script>
+
 </body>
+
 </html>
